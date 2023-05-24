@@ -13,7 +13,7 @@ public class Connect {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            String url = "jdbc:mysql://localhost:3306/smanage";
+            String url = "jdbc:mysql://?YOUR DB IP?/?YOUR DB NAME?";  // Please change the content in the ? ?
             conn = DriverManager.getConnection(url, uname, psw);
         }
         catch (Exception e) {
