@@ -8,8 +8,8 @@ public class Connect {
     public static Connection getConn() {
         // uname: the username of database
         // psw: the password of database
-        String uname = "root";
-        String psw = "XuJian0413?!#";
+        String uname = "root"; // Your username
+        String psw = "psw123456";   // Your password
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
