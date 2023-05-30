@@ -21,12 +21,12 @@ public class ABOUT extends JFrame {
     public ABOUT() {
         jp = new JPanel();
         jp.setLayout(null);
-        author = new JLabel("作者: Jonas");
+        author = new JLabel("作者: ");
         version = new JLabel("版本: 1.0.3");
-        info1 = new JLabel("许键");
-        info2 = new JLabel("华南师范大学");
-        info3 = new JLabel("人工智能学院");
-        info4 = new JLabel("20214001078");
+        info1 = new JLabel("");
+        info2 = new JLabel("");
+        info3 = new JLabel("");
+        info4 = new JLabel("");
 
         confirm = new JButton("确认");
         pic = new JLabel();
